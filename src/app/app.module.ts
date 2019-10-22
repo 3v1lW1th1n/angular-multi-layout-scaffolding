@@ -13,6 +13,7 @@ import { AuthorisedLayoutComponent } from './layout/authorised/authorised-layout
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { AuthorisedTopNavComponent } from './layout/authorised/authorised-top-nav/authorised-top-nav.component';
 import { AuthorisedSideNavTogglerComponent } from './layout/authorised/authorised-side-nav-toggler/authorised-side-nav-toggler.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { AuthorisedSideNavTogglerComponent } from './layout/authorised/authorise
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
